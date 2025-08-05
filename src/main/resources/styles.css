@@ -1,0 +1,128 @@
+/* Global App Font and Background */
+.root {
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-background-color: #f0f4f8;
+}
+
+/* Headings and Labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.label.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222222;
+}
+
+/* TableView Styling */
+.table-view {
+    -fx-background-color: white;
+    -fx-table-cell-border-color: transparent;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+    -fx-padding: 4px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.06), 8, 0, 0, 2);
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e3f2fd;
+    -fx-border-color: transparent transparent #d0d0d0 transparent;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.table-view .column-header {
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-text-fill: #1a237e;
+}
+
+.table-view .table-row-cell {
+    -fx-border-color: #e0e0e0;
+    -fx-padding: 6px;
+}
+
+.table-view .table-cell {
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 1px 0 0; /* Right-side vertical borders */
+    -fx-padding: 6px 10px;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #cce5ff;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #007acc;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-padding: 6 14;
+    -fx-font-size: 13px;
+    -fx-font-weight: 600;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.15), 4, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #005f99;
+    -fx-opacity: 0.9;
+    -fx-cursor: hand;
+}
+
+/* Input Fields */
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 6;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #007acc;
+    -fx-background-color: #f9f9f9;
+}
+
+/* ComboBox */
+.combo-box {
+    -fx-font-size: 13px;
+    -fx-background-radius: 5;
+}
+
+/* Error or Status Labels */
+.label.error {
+    -fx-text-fill: red;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* Tabs */
+.tab-pane .tab {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* Optional: Add some smooth animations */
+.table-row-cell {
+    -fx-transition: all 0.3s ease;
+}
+
+
+/* To-Do Table styling in dark mode */
+#todo-table {
+    -fx-background-color: #f5f5f5; /* Light gray background */
+    -fx-text-fill: black;
+}
+
+#todo-table .table-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+.table-row-cell:filled:selected {
+    -fx-text-fill: black;
+    -fx-background-color: #90caf9; /* Or your preferred selection color */
+}

@@ -1,0 +1,151 @@
+/* ==== ROOT & DEFAULTS ==== */
+.root {
+    -fx-base: #2b2b2b;
+    -fx-background: #2b2b2b;
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 13px;
+}
+
+/* ==== LABELS ==== */
+.label {
+    -fx-text-fill: white;
+}
+
+/* ==== BUTTONS ==== */
+.button {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: white;
+    -fx-border-color: #5a5a5a;
+    -fx-border-width: 1;
+    -fx-background-radius: 5;
+    -fx-padding: 6 12;
+}
+
+.button:hover {
+    -fx-background-color: #4a4e52;
+}
+
+/* ==== TOGGLE BUTTON ==== */
+.toggle-button {
+    -fx-background-color: #5a5a5a;
+    -fx-text-fill: white;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #007acc;
+    -fx-text-fill: white;
+}
+
+/* ==== COMBOBOX ==== */
+.combo-box {
+    -fx-background-color: #3c3f41;
+    -fx-border-color: #5a5a5a;
+    -fx-border-radius: 4;
+    -fx-mark-color: white;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: white;
+    -fx-background-color: #3c3f41;
+}
+
+/* ==== TEXT FIELDS ==== */
+.text-field {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: white;
+    -fx-border-color: #5a5a5a;
+    -fx-border-radius: 4;
+}
+
+/* ==== SUBJECT TABLE ==== */
+#subject-table {
+    -fx-background-color: #ffffff;
+}
+
+#subject-table .table-row-cell {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+#subject-table .table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+    -fx-text-fill: black;
+}
+
+#subject-table .table-cell {
+    -fx-text-fill: black;
+}
+
+#subject-table .column-header-background {
+    -fx-background-color: #222222;
+}
+
+#subject-table .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+
+/* ==== TODO TABLE ==== */
+#todo-table {
+    -fx-background-color: #2b2b2b;
+}
+
+#todo-table .table-row-cell {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+
+#todo-table .table-row-cell:odd {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: white;
+}
+
+#todo-table .table-cell {
+    -fx-text-fill: white;
+}
+
+#todo-table .column-header,
+#todo-table .column-header-background {
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#todo-table .check-box-table-cell > .check-box {
+    -fx-mark-color: white;
+}
+
+/* ==== CHECKBOX ==== */
+.check-box {
+    -fx-text-fill: white;
+}
+
+/* ==== TABS ==== */
+.tab-pane {
+    -fx-tab-min-width: 100px;
+}
+
+.tab {
+    -fx-background-color: #3c3f41;
+    -fx-text-base-color: white;
+    -fx-padding: 5 10;
+}
+
+.tab:selected {
+    -fx-background-color: #007acc;
+    -fx-text-base-color: white;
+}
+
+/* ==== DIALOGS ==== */
+.dialog-pane {
+    -fx-background-color: #2b2b2b;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
+

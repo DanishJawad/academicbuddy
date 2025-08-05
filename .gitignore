@@ -1,0 +1,41 @@
+# Maven target directory
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+
+# NetBeans specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Gradle build folder (in case you're mixing)
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
