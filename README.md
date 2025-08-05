@@ -46,3 +46,8 @@ Academic Buddy is a JavaFX desktop application that helps students manage subjec
 - SceneBuilder (optional for UI)  
 
 ---
+## 👤 Author
+
+**Muhammad Danish Jaw**  
+BS Software Engineering – COMSATS University, Lahore  
+📧 [m.danishjawad@gmail.com](mailto:m.danishjawad@gmail.com)
