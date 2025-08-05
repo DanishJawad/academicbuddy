@@ -29,7 +29,7 @@ Replace the image links below with actual screenshots from your app:
 ![To-Do List](To-Do-List.png)
 
 ### 📈 GPA Trends Chart  
-![GPA Trends](Trends-Chart.png
+![GPA Trends](Trends-Chart.png)
 
 ---
 
