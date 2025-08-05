@@ -27,7 +27,7 @@ Academic Buddy is a JavaFX desktop application that helps students manage subjec
 ![To-Do List](to-do-list.png)
 
 ### 📈 GPA Trends Chart  
-![GPA Trends](Trends-Chart.png)
+![GPA Trends](trends-chart.png)
 
 ---
 
